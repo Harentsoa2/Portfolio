@@ -10,7 +10,6 @@ interface PortfolioHeroProps {
   description: string;
   cta: string;
   ctaSecondary: string;
-  email: string;
 }
 
 export function PortfolioHero({
@@ -19,7 +18,6 @@ export function PortfolioHero({
   description,
   cta,
   ctaSecondary,
-  email,
 }: PortfolioHeroProps) {
   const heroTags = ["AI apps", "Full-stack", "SaaS", "Cloud"];
 
@@ -82,7 +80,7 @@ export function PortfolioHero({
             variant="outline"
             className="border-cyan-500/30 hover:border-amber-400/60 text-cyan-300 hover:text-amber-200 px-8 py-6 text-base font-semibold backdrop-blur-sm hover:bg-amber-400/10 transition-transform duration-300 hover:scale-[1.03]"
           >
-            <a href={`mailto:${email}`}>
+            <a href="#contact">
               {ctaSecondary}
             </a>
           </Button>

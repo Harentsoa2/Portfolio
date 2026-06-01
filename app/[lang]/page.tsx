@@ -32,7 +32,6 @@ export default async function PortfolioPage({
         description={data.hero.description}
         cta={data.hero.cta}
         ctaSecondary={data.hero.ctaSecondary}
-        email={data.email}
       />
 
       {/* About Section */}
